@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>projet</title>	
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<!--Barre navigation-->
+<header>
+	<nav class="nav-bar" id="navbar">
+		<div id="mySidenav" class="sidenav">
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ 			<a href="#">Présentation</a>
+  			<a href="#">Stage</a>
+  			<a href="#">Contact</a>
+  			<a href="#">Informations supplémentaires</a>
+		</div>
+			<span class="menu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+		<div class="img">
+         	<a href="#"><img class="logo" src="media/nasa.png" alt="Logo"></a>
+        </div>
+		<div class="dropdown">
+		<button onclick="myDrop()" class="dropbutton">Mon espace</button>
+			<div id="myDropdown" class="dropdown-content">
+			<a href="#" class="text">S'identifier</a>
+			<a href="#" class="text">S'inscrire</a>
+			</div>
+		</div>
+	</nav>
+</header>
+	
+<!--Première section-->
+	
+	<section id="first" class="text-animation">
+		<div class="first" onclick="myAnimation()">
+			<h1 class="animation">Vous avez toujours rêvé de devenir astronaute ?</h1>
+		</div>
+		
+	</section>
+	
+<!--Deuxième section-->
+	
+	<section id="second">
+		<div class="second" >
+			<div class="img" id="secondImg">
+				<img class="dessin" src="media/astonaute.png" alt="Astronaute">
+			</div>
+			<div>
+				<h1 class="titre" id="secondTitre1"> Nous vous proposons un stage intensif</h1>
+				<h2 class="sous-titre" id="secondTitre2">Il ne reste que quelques places !</h2>
+			</div>
+		</div>
+	</section>
+	
+<!--Troisième section-->
+	
+	<section id="third">
+		<div class="third">			
+			<div>
+				<h1 id="anim"></h1>
+			</div>
+		</div>
+		
+	</section>
+	
+	
+</body>
+	<script type="text/javascript" src="js/style.js"></script>
+</html>
+
